@@ -1,0 +1,15 @@
+_start_bot () {
+
+
+    python3 ../setup/updater.py ../requirements.txt requirements.txt
+
+
+    echo "    Starting thanos    "
+
+
+
+    python3 -m userbot
+
+}
+
+_start_bot
