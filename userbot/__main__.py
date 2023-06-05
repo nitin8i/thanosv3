@@ -693,7 +693,7 @@ async def externalrepo():
 
 THANOSPRO.loop.run_until_complete(startup_process())
 
-THANOSPRO.loop.run_until_complete(externalrepo())
+#THANOSPRO.loop.run_until_complete(externalrepo())
 
 if len(sys.argv) in {1, 3, 4}:
     with contextlib.suppress(ConnectionError):
