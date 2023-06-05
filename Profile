@@ -1,1 +1,1 @@
-python3 -m userbot
+bash thanosv3
